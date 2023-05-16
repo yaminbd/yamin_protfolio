@@ -144,7 +144,7 @@ img {
 
 .nav__link {
   position: relative;
-  color: #fff;
+  color: #f5f3f3;
 }
 
 .nav__link:hover {
@@ -160,6 +160,7 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
+
 
 .nav__logo {
   color: var(--second-color);
@@ -357,6 +358,9 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+
+/*=======CV=========*/
+
 
 /* ===== CONTACT =====*/
 .contact__input {
