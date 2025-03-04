@@ -532,3 +532,46 @@ img {
     width: 450px;
   }
 }
+.skills__bar {
+  height: 8px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.skills__bar::after {
+  content: "";
+  height: 100%;
+  background-color: #3498db; /* Change to your preferred color */
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.skills__html::after { width: 95%; }
+.skills__css::after { width: 85%; }
+.skills__js::after { width: 75%; }
+.skills__python::after { width: 90%; }
+.skills__sql::after { width: 80%; }
+.skills__cpp::after { width: 65%; }
+.skills__git::after { width: 80%; }
+.skills__ml::after { width: 75%; }
+.skills__bi::after { width: 70%; }
+
+/* Special Styles for CRUD Application */
+.work__img:nth-child(3) .work__overlay {
+  background-color: rgba(253, 245, 245, 0.8); /* Darker overlay for emphasis */
+}
+
+.work__img:nth-child(3) .work__overlay h3 {
+  color: #3498db; /* Change title color to blue */
+}
+
+.work__img:nth-child(3) .work__overlay p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+

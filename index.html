@@ -9,8 +9,10 @@
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Boxicons CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
 
-        <title>Portfolio website complete</title>
+        <title>Portfolio</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -42,7 +44,8 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Yamin</span><br> Web Designer</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Yamin</span><br> A Computer Science <br>Graduate </h1>
+                    
 
                     <a href="#contact" class="button">Contact</a>
                 </div>
@@ -67,126 +70,192 @@
             </section>
 
             <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2>
+            
                 <div class="about__container bd-grid">
+                    <!-- Profile Image -->
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/about.jpg" alt="Yamin Hossan">
                     </div>
-                    
+            
+                    <!-- About Text -->
                     <div>
-                        <h2 class="about__subtitle">I'm Yamin</h2>
-                        <p class="about__text">I am a passionate frontend developer with a love for creating beautiful and interactive websites. I have a strong foundation in JavaScript, HTML, and CSS, allowing me to bring designs to life and provide engaging user experiences. Additionally, my knowledge of SQL enables me to work with databases effectively. also have experience with Python and basic familiarity with C# and C++.</p>           
+                        <h2 class="about__subtitle">Passionate About AI, Web Development & Data Science</h2>
+                        <p class="about__text">
+                            A <strong>Computer Science graduate</strong> from the University of Roehampton, with expertise in 
+                            <strong>software development, AI, and data science</strong>.  
+                            I specialize in <span style="color: #ff6600;">Python, JavaScript, Flask, and SQL</span>, 
+                            building innovative solutions for AI-powered applications, web development, and data visualization.
+                        </p>
+                        <br>
+                        <p class="about__text">
+                            My technical background includes <strong>machine learning, full-stack development, and database management</strong>.  
+                            Currently, I am focused on developing intelligent applications that enhance user experiences through 
+                            modern web technologies and AI-driven solutions.
+                        </p>
+                        <br>
+                        <p class="about__text">
+                            Passionate about coding, I actively participate in <strong>coding challenges, hackathons, and tech workshops</strong>,  
+                            always striving to learn and innovate.
+                        </p>
+                        <br>
+                        <!-- CV Download Button -->
+                        <a href="assets/CV.pdf" class="button">Download CV</a>
                     </div>                                   
                 </div>
             </section>
+            
+            
 
-            <!--===== SKILLS =====-->
+           <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text"></p>
+                        <h2 class="skills__subtitle">Technical Skills</h2>
+                        <p class="skills__text">Proficient in software development, AI, and data science with hands-on experience in web technologies, programming, and data visualization.</p>
+
+                        <!-- Programming Languages -->
+                        <h3 class="skills__category">Programming Languages</h3>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python"></div>
+                            <div><span class="skills__percentage">90%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div><span class="skills__percentage">75%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql"></div>
+                            <div><span class="skills__percentage">80%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-c-plus-plus skills__icon'></i>
+                                <span class="skills__name">C++</span>
+                            </div>
+                            <div class="skills__bar skills__cpp"></div>
+                            <div><span class="skills__percentage">65%</span></div>
+                        </div>
+
+                        <!-- Web & Software Development -->
+                        <h3 class="skills__category">Web & Software Development</h3>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
                                 <span class="skills__name">HTML5</span>
                             </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div><span class="skills__percentage">95%</span></div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-css3 skills__icon'></i>
                                 <span class="skills__name">CSS3</span>
                             </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
+                            <div class="skills__bar skills__css"></div>
+                            <div><span class="skills__percentage">85%</span></div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
+                                <i class='bx bx-git-branch skills__icon'></i>
+                                <span class="skills__name">Git</span>
                             </div>
-                            <div class="skills__bar skills__js">
-                                
+                            <div class="skills__bar skills__git"></div>
+                            <div><span class="skills__percentage">80%</span></div>
+                        </div>
+                        
+                        <!-- AI & Data Science -->
+                        <h3 class="skills__category">AI & Data Science</h3>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-brain skills__icon'></i>
+                                <span class="skills__name">Machine Learning</span>
                             </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
+                            <div class="skills__bar skills__ml"></div>
+                            <div><span class="skills__percentage">75%</span></div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
+                                <i class='bx bx-bar-chart-alt skills__icon'></i>
+                                <span class="skills__name">Power BI / Tableau</span>
                             </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
+                            <div class="skills__bar skills__bi"></div>
+                            <div><span class="skills__percentage">70%</span></div>
                         </div>
                     </div>
-                    
+
                     <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                        <img src="assets/img/skills.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
 
+          
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                    <!-- AI Diet Consultant Project -->
+                    <a href="https://github.com/yaminbd/FYP_AI-Diet-Consultant.git" class="work__img" target="_blank">
+                        <img src="assets/img/work1.jpg" alt="AI Diet Consultant Project">
+                        <div class="work__overlay">
+                            <h3>AI Diet Consultant</h3>
+                            <p>AI-powered food recommendation system using Python, Flask, and OpenAI API. Integrated NLP for personalized dietary advice.</p>
+                        </div>
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
+
+                    <!-- Potato Disease Classification Project -->
+                    <a href="https://github.com/yaminbd/CNN_Potato.git" class="work__img" target="_blank">
+                        <img src="assets/img/work2.jpg" alt="Potato Disease Classification Project">
+                        <div class="work__overlay">
+                            <h3>Potato Disease Classification</h3>
+                            <p>Implemented a Convolutional Neural Network (CNN) for image classification using TensorFlow and Keras. Achieved high accuracy on diverse datasets.</p>
+                        </div>
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
+
+                    <!-- CRUD Application Project -->
+                    <a href="https://github.com/basic-zone/webdev.git" class="work__img" target="_blank">
+                        <img src="assets/img/work3.jpg" alt="CRUD Application Project">
+                        <div class="work__overlay">
+                            <h3>CRUD Application</h3>
+                            <p>Designed and developed a full-stack CRUD application using Node.js, Express.js, and Pug templates. Implemented RESTful API endpoints and deployed the project using Docker.</p>
+                        </div>
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
+
                 </div>
             </section>
 
-            </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
+                    <form action="mailto:binamin183@gmail.com" method="POST" enctype="text/plain" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" name="name" required>
+                        <input type="email" placeholder="Email" class="contact__input" name="email" required>
+                        <textarea placeholder="Message" class="contact__input" name="message" cols="30" rows="10" required></textarea>
+                        <input type="submit" value="Submit" class="contact__button button">
                     </form>
                 </div>
             </section>
+
         </main>
 
         <!--===== FOOTER =====-->
